@@ -5,6 +5,7 @@ import App from "./App"; // Import คอมโพเนนต์หลักข
 // เรียกใช้งาน App และเรนเดอร์ไปยัง HTML
 ReactDOM.render(
   <React.StrictMode>
+    
     <App />
   </React.StrictMode>,
   document.getElementById("root") // เชื่อมกับ div ที่มี id="root" ใน index.html
